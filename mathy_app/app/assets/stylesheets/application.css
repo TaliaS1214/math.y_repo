@@ -13,3 +13,92 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 0px;
+  background-color: #EBEBEB;
+  color: #2F4F4F;
+  font-family: 'Libre Baskerville', serif;
+}
+#main {
+  width: 950px;
+}
+header {
+  color: #3BB878;
+  height: 100px;
+  background: #2F4F4F;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+header a {
+  color: white;
+  padding: 0px 5px;
+  font-size: 15px;
+  text-decoration: none;
+}
+header a:hover {
+  color: #FF8C00;
+  padding: 0px 5px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+#header_content {
+  margin: 20px;
+  font-family: 'Libre Baskerville', serif;
+}
+#header_content a {
+  font-size: 50px;
+  color: #3BB878;
+}
+#user_nav a{
+  float: right;
+  font-size: 16px;
+}
+#user_nav a:hover{
+  float: right;
+  font-size: 16px;
+  color: #FF8C00;
+  transition: 0.2s;
+}
+
+#content {
+  width: 1100px;
+  padding: 100px 30px;
+}
+img {
+  margin: auto;
+  display: block;
+}
+label{
+  width: 100px;
+  float: left;
+  text-align: left;
+  margin-right: 0.5em;
+  display: block
+}
+textarea {
+  width: 600px;
+  height: 300px;
+}
+
+.bottom_menu_options {
+  width: 800px;
+  margin-top: 10px;
+  border-top: 1px solid #2F4F4F;
+  padding-top: 10px;
+}
+
+.bottom_menu_options a{
+  text-decoration: none;
+  color: #2F4F4F;
+  margin: 0px 5px;
+}
+
+.bottom_menu_options a:hover{
+  text-decoration: none;
+  color: #FF8C00;
+  transition: 0.2s;
+}
