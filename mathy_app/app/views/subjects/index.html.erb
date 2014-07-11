@@ -9,5 +9,7 @@
 </ul>
 
 <div class="bottom_menu_options">
-  <%= link_to('Add Subject', new_subject_path) %>
+  <% if current_user %>
+    <%= link_to('Add Subject', new_subject_path) %>
+  <% end %>  
 </div>

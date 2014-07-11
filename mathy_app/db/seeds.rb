@@ -17,16 +17,30 @@ subjects = [
       {
         position: 2,
         title: 'Functions',
-        introduction: "In this section we'll dicuss functions, and in particular
-        the concepts of a function's domain, range, and inverse.",
-        body: "The concept of a function is ubiquitous in math. Wikipedia's definition of a function is that a function
-        is 'a relation between a set of inputs and a set of permissible outputs with the property that each input is
-        related to exactly one output.' When we normally talk about functions, we're used to considering a function
-        like &fnof;(x) = x^2. Let's assume that we can substitute any number we'd like for 'x'; it can be an
-        integer like 2 or -3; a rational number like 4.2 or 10.5; or an irrational number like &radic;2 or &pi;. To
-        make it more clear what a function is, consider the image below, where we have a set of inputs (labeled X) and a
-        set of outputs (labeled Y). ![Alt text](http://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Injection_keine_Injektion_2a.svg/200px-Injection_keine_Injektion_2a.svg.png)
-        We draw arrows going from inputs to outputs in order to specify the relation between a given input and its output."
+        introduction: "The idea of a function is one of the most fundamental in all of mathematics. We're using to considering functions like &fnof;(x) = x^2 or &fnof;(x) = x + 3. In this context, we think of a function &fnof; as a "black box" which accepts a number as an input and returns another number as an output. For example, with the function &fnof;(x) = x^2, our "black box" accepts a number and returns the square of that number. So if we feed the number 2 to our function &fnof;, we get back 4. If we feed it 10, we get back 100. But there are some subtleties here that have been swept under the rug. What kind of numbers is a function *allowed* to accept as inputs? Which numbers are permissible outputs of a function? We'll cover these ideas extensively using precise mathematical language in this section, and by the end of it you should be comfortable with talking about functions in a technical sense.",
+        body: "Wikipedia's definition of a function is 'a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output.' When we normally talk about functions, we're used to considering a function like &fnof;(x) = x + 1. Let's assume that we can substitute any number we'd like for 'x'; it can be an integer like 2 or -3; a rational number like 4.2 or 10.5; or an irrational number like &radic;2 or &pi;. To make it more clear what a function is, consider the image below, where we have a set of inputs (labeled X) and a set of outputs (labeled Y).
+
+        ![Alt text](http://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Injection_keine_Injektion_2a.svg/200px-Injection_keine_Injektion_2a.svg.png)
+
+        We draw arrows going from inputs to outputs in order to specify the relation between a given input and its output. Notice a few things about the picture above. The first is that we have numbers which are being "mapped" to letters! That's rather strange, isn't it? From a mathematical standpoint, yes, this is weird. In math, we don't typically define functions which accept numbers as inputs and return letters as outputs. But from a logical standpoint, there's nothing strange going on here. We're simply feeding numbers to our black box, and our black box is spitting out letters.
+
+        This brings us to our first definition.
+
+        **Definition 1** The *domain* of a function is the set of all inputs or arguments for which a function is defined.
+
+        In other words, the domain of a function is the set of all things (whether they're numbers or letters or made-up symbols) which one is allowed to pass to a function as an input. In our picture above, we have called the domain "X", which simply consists of the numbers 1, 2, and 3. We write this concisely as X = {1, 2, 3}.
+
+        Cool - we have a name for the stuff that you can plug into a function. What about the stuff that the function spits back out? There's a name for that too, and it's called the *range*.
+
+        **Definition 2** The *range* of a function (also known as the *image*) is the set of all outputs of a function.
+
+        In our picture above, our range is the letters *C* and *D*, since 1 gets mapped to *D* and 2 and 3 get mapped to *C*. Notice that there are no numbers in our domain X which get mapped to the letters *A* and *B*. This means that *A* and *B* don't lie in the range of our function. So why are they even in that bubble on the right-hand side? Because they lie in another special set, called the *codomain*.
+
+        **Definition 3** The set of all potential or permissible outputs of a function is called the *codomain* of a function.
+
+        Notice that the range of a function is always a subset of a function's codomain, since the actual outputs of a function (the range) must be included in the set of *potential* outputs (the codomain).
+
+        Let's examine this in the context of an example with which we're more familiar. Consider the function &fnof;(x) = x^2. What are the domain and codomain of the function? The answer is: we don't know yet! Why? Because it's up to us. We get to choose what are the permissible inputs and outputs of the function."
       },
       {
         position: 3,
