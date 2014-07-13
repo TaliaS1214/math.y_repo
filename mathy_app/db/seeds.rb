@@ -104,8 +104,8 @@ subjects = [
       },
       {
         position: 3,
-        title: 'Modulo Arithmetic and Congruences',
-        introduction: "In this section we'll talk about modulo arithmetic and congruences.",
+        title: 'Modular Arithmetic and Congruences',
+        introduction: "In this section we'll talk about modular arithmetic and congruences.",
         body: "No body yet."
       },
       {
